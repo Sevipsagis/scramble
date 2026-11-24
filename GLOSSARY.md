@@ -20,6 +20,10 @@ _Avoid_: Room, party, jam, lobby
 The short credential Guests use (with or without a QR that encodes it) to enter a Session over the cloud relay.
 _Avoid_: PIN, room code, invite link (as the primary term)
 
+**Block**:
+A Host action that stops a Guest from adding further Tracks in the current Session (after rate limits and Host removal of bad adds).
+_Avoid_: Ban (unless meaning cross-Session), kick (prefer Block + remove from Session if both)
+
 **Queue**:
 The ordered list of upcoming Tracks for the current Session’s YouTube Music playback.
 _Avoid_: Playlist (unless meaning a YouTube Music playlist entity), lineup

@@ -9,7 +9,7 @@ The person whose device is currently connected to CarPlay (or later, the party s
 _Avoid_: Driver, owner, DJ, admin
 
 **Guest**:
-A participant who joins a Session to search and contribute Tracks without controlling the Host device.
+A participant who joins a Session to search and contribute Tracks without controlling the Host device. Guests are not required to have a Google / YouTube Music account. A Session admits at most six Guests.
 _Avoid_: Passenger (as the role name), collaborator, user, client
 
 **Session**:

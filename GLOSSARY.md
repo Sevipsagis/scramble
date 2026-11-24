@@ -5,7 +5,7 @@ Domain language for a car-first product where passengers join a YouTube Music li
 ## Language
 
 **Host**:
-The person whose device is currently connected to CarPlay (or later, the party speaker) and is the one streaming YouTube Music aloud.
+The person whose device is currently connected to CarPlay (or later, the party speaker) and is streaming YouTube Music aloud through the Host companion’s own on-device player (not Google’s YouTube Music app UI).
 _Avoid_: Driver, owner, DJ, admin
 
 **Guest**:
@@ -17,7 +17,7 @@ The display name a Guest picks when joining a Session; unique among Guests in th
 _Avoid_: Username, handle, display name
 
 **Session**:
-A temporary collaborative listening period bound to one Host’s active YouTube Music playback. If the Host disconnects, the Session stays open for a reconnect window of 15 minutes; after that with no Host reconnect it hard-cuts. The Host may also end the Session explicitly at any time.
+A temporary collaborative listening period bound to one Host’s active playback in the Host companion. If the Host disconnects, the Session stays open for a reconnect window of 15 minutes; after that with no Host reconnect it hard-cuts. The Host may also end the Session explicitly at any time.
 _Avoid_: Room, party, jam, lobby
 
 **Join Code**:
@@ -29,7 +29,7 @@ A Host action that stops a Guest from adding further Tracks in the current Sessi
 _Avoid_: Ban (unless meaning cross-Session), kick (prefer Block + remove from Session if both)
 
 **Queue**:
-The ordered list of upcoming Tracks for the current Session’s YouTube Music playback.
+The ordered list of upcoming Tracks in the Host companion’s player for the current Session.
 _Avoid_: Playlist (unless meaning a YouTube Music playlist entity), lineup
 
 **Track**:

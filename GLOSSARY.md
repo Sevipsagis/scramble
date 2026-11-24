@@ -13,7 +13,7 @@ A participant who joins a Session to search and contribute Tracks without contro
 _Avoid_: Passenger (as the role name), collaborator, user, client
 
 **Session**:
-A temporary collaborative listening period bound to one Host’s active YouTube Music playback.
+A temporary collaborative listening period bound to one Host’s active YouTube Music playback. It ends as soon as that Host disconnects from CarPlay (or the speaker); Guests are dropped and must join a new Session.
 _Avoid_: Room, party, jam, lobby
 
 **Queue**:

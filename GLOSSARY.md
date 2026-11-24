@@ -9,8 +9,12 @@ The person whose device is currently connected to CarPlay (or later, the party s
 _Avoid_: Driver, owner, DJ, admin
 
 **Guest**:
-A participant who joins a Session to search and contribute Tracks without controlling the Host device. Guests are not required to have a Google / YouTube Music account. A Session admits at most six Guests.
+A participant who joins a Session to search and contribute Tracks without controlling the Host device. Guests are not required to have a Google / YouTube Music account. On join they choose a Nickname unique within the Session. A Session admits at most six Guests.
 _Avoid_: Passenger (as the role name), collaborator, user, client
+
+**Nickname**:
+The display name a Guest picks when joining a Session; unique among Guests in that Session so the Host can Block the right person.
+_Avoid_: Username, handle, display name
 
 **Session**:
 A temporary collaborative listening period bound to one Host’s active YouTube Music playback. If the Host disconnects, the Session stays open for a reconnect window of 15 minutes; after that with no Host reconnect it hard-cuts. The Host may also end the Session explicitly at any time.

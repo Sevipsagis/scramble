@@ -1,0 +1,15 @@
+{
+  "name": "ytm-search-spike",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "search": "node search.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "youtubei.js": "^14.0.0"
+  }
+}

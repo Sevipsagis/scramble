@@ -1,0 +1,7 @@
+node_modules/
+cookie.txt
+cookies.txt
+.cookie
+*.cookie
+.cache/
+node_modules

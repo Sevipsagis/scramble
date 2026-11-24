@@ -2,7 +2,9 @@
 
 **Goal:** prove `youtubei.js` can search YouTube Music before we build the Host player.
 
-## Success for this step
+## Success criteria
+
+**Search**
 
 ```bash
 cd spikes/ytm-search
@@ -12,7 +14,16 @@ npm run search -- "lofi hip hop"
 
 Prints JSON with `ok: true` and at least one Track `{ id, title, artists }`.
 
-Anonymous search is enough to pass this spike. A logged-in cookie is optional here; it becomes required later for account-bound streaming.
+**Stream (step 3)**
+
+```bash
+npm run stream --
+# or: npm run stream -- <videoId>
+```
+
+Prints JSON with `ok: true`, an `itag` / `mimeType`, `httpStatus` 200/206, and a **redacted** URL. Full signed URLs stay local — do not paste them into chat.
+
+**Cookie is required for stream.** Anonymous player calls from this spike return `LOGIN_REQUIRED` / bot challenges. Put the Cookie header in `cookie.txt` locally, then run `npm run stream`.
 
 ## Optional cookie (local only)
 

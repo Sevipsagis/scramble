@@ -4,12 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "search": "node search.mjs"
+    "search": "node search.mjs",
+    "stream": "node stream.mjs"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
-    "youtubei.js": "^14.0.0"
+    "youtubei.js": "^18.3.0"
   }
 }

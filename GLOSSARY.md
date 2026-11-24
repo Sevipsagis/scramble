@@ -13,8 +13,12 @@ A participant who joins a Session to search and contribute Tracks without contro
 _Avoid_: Passenger (as the role name), collaborator, user, client
 
 **Session**:
-A temporary collaborative listening period bound to one Host’s active YouTube Music playback. It ends as soon as that Host disconnects from CarPlay (or the speaker); Guests are dropped and must join a new Session.
+A temporary collaborative listening period bound to one Host’s active YouTube Music playback. If the Host disconnects, the Session stays open for a reconnect window of 15 minutes; after that with no Host reconnect it hard-cuts. The Host may also end the Session explicitly at any time.
 _Avoid_: Room, party, jam, lobby
+
+**Join Code**:
+The short credential Guests use (with or without a QR that encodes it) to enter a Session over the cloud relay.
+_Avoid_: PIN, room code, invite link (as the primary term)
 
 **Queue**:
 The ordered list of upcoming Tracks for the current Session’s YouTube Music playback.
